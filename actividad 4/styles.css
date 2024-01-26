@@ -1,0 +1,104 @@
+body {
+            font-family: 'Lucida Sans', sans-serif;
+            background-image: url('imagenes/fondo.jpg');
+            padding: 20px;
+        }
+
+        h1 {
+            color: #f44336;
+            text-align: center;
+            border: 4px dashed #f44336;
+            background-color: white;
+            padding: 5px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 15px;
+            padding: 10px;
+            background-color: #ff9800;
+            color: white;
+            border: 2px solid #f44336;
+        }
+
+        article {
+            text-align: left;
+        }
+        article2 {
+            text-align: right;
+            background-color: rgb(212, 255, 0);
+        }
+
+        article h2:nth-child(even) {
+            background-color: #ffc107;
+            padding: 5px;
+            color: white;
+            text-align: left; 
+        }
+
+        article h2:nth-child(odd) {
+            background-color: #f44336;
+            padding: 5px;
+            color: white;
+        }
+
+        article h2:nth-child(3) {
+            background-color: #f44336; 
+            padding: 5px;
+            color: white;
+            text-align: left; 
+        }
+        article2 h2:nth-child(even) {
+            background-color: #e1e506;
+            padding: 5px;
+            color: white;
+            text-align: left; 
+        }
+
+        article2 h2:nth-child(odd) {
+            background-color: #e1e506;
+            padding: 5px;
+            color: white;
+        }
+
+        article2 h2:nth-child(3) {
+            background-color: #dbf436; 
+            padding: 5px;
+            color: white;
+            text-align: left; 
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        aside ul {
+            list-style-type: square;
+            font-style: italic;
+        }
+
+        aside li:first-child {
+            font-size: 24px;
+            color: blue;
+        }
+
+        aside li:nth-child(2) {
+            font-size: 20px;
+            color: red;
+        }
+
+        aside li:nth-child(3) {
+            color: green;
+        }
+
+        footer h1 {
+            text-align: center;
+            font-size: 20px;
+            text-decoration: underline;
+        }
